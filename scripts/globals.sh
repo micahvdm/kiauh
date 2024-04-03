@@ -51,6 +51,11 @@ function set_globals() {
   KLIPPERSCREEN_DIR="${HOME}/KlipperScreen"
   KLIPPERSCREEN_REPO="https://github.com/jordanruthe/KlipperScreen.git"
 
+  #========= KLIPPERSCREEN HAPPY HARE ===========#
+  KLIPPERSCREEN_ENV="${HOME}/.KlipperScreen-env"
+  KLIPPERSCREEN_DIR="${HOME}/KlipperScreen"
+  KLIPPERSCREEN_REPO="https://github.com/moggieuk/KlipperScreen-Happy-Hare-Edition.git"
+
   #========== MOONRAKER-TELEGRAM-BOT ============#
   TELEGRAM_BOT_ENV="${HOME}/moonraker-telegram-bot-env"
   TELEGRAM_BOT_DIR="${HOME}/moonraker-telegram-bot"
@@ -77,6 +82,10 @@ function set_globals() {
   #=============== Crowsnest ================#
   CROWSNEST_DIR="${HOME}/crowsnest"
   CROWSNEST_REPO="https://github.com/mainsail-crew/crowsnest.git"
+
+  #=============== Happy Hare ===============#
+  CROWSNEST_DIR="${HOME}/Happy-Hare"
+  CROWSNEST_REPO="https://github.com/moggieuk/Happy-Hare.git"
 
   #=============== Mobileraker ================#
   MOBILERAKER_ENV="${HOME}/mobileraker-env"
