@@ -29,8 +29,8 @@ function remove_ui() {
   echo -e "|                           | 12) [Telegram Bot]        |"
   echo -e "| Touchscreen GUI:          | 13) [Obico for Klipper]   |"
   echo -e "|  7) [KlipperScreen]       | 14) [OctoEverywhere]      |"
-  echo -e "|                           | 15) [Mobileraker]         |"
-  echo -e "|                           | 16) [NGINX]               |"
+  echo -e "|  18) [KlipperScreen HH]   | 15) [Mobileraker]         |"
+  echo -e "|  19) [Happy Hare]         | 16) [NGINX]               |"
   echo -e "|                           | 17) [OctoApp]             |"
   back_footer
 }
@@ -76,6 +76,10 @@ function remove_menu() {
         do_action "remove_nginx" "remove_ui";;
       17)
         do_action "remove_octoapp" "remove_ui";;
+      18)
+        do_action "remove_klipperscreen_hh" "remove_ui";;
+      19)
+        do_action "remove_happy_hare" "remove_ui";;
       B|b)
         clear; main_menu; break;;
       *)
