@@ -29,8 +29,8 @@ function install_ui() {
   echo -e "|                          | 10) [OctoEverywhere]       |"
   echo -e "|                          | 11) [Mobileraker]          |"
   echo -e "| Touchscreen GUI:         | 12) [OctoApp for Klipper]  |"
-  echo -e "|  5) [KlipperScreen]      |                            |"
-  echo -e "|                          | Webcam Streamer:           |"
+  echo -e "|  5) [KlipperScreen]      | 15) [Happy Hare]           |"
+  echo -e "|  14) [KlipperScreen HH]  | Webcam Streamer:           |"
   echo -e "|                          | 13) [Crowsnest]            |"
   back_footer
 }
@@ -76,6 +76,10 @@ function install_menu() {
         do_action "octoapp_setup_dialog" "install_ui";;
       13)
         do_action "install_crowsnest" "install_ui";;
+      14)
+        do_action "install_klipperscreen_hh" "install_ui";;
+      15)
+        do_action "install_happy_hare" "install_ui";;
       B|b)
         clear; main_menu; break;;
       *)
